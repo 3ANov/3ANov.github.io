@@ -1,5 +1,20 @@
 body {
 	
-	background-color: #01010c
+	background-color: #9fb7c4;
 
+}
+.bg_darkslategray {
+	background-color: #243d46;
+}
+
+.cyberpunk_container {
+	background-image: url('media/cyberpunk.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.logo {
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.6em;
+	color: #3ea6a4;
 }
