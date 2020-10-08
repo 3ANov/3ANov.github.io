@@ -64,4 +64,10 @@ body {
 	border-width: 3px !important;
 }
 
+.section {
+	scroll-margin-top: 1em;
+}
 
+.bg_section {
+	background-color: #f7e846;
+}
