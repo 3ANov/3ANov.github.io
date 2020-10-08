@@ -54,7 +54,14 @@ body {
 	font-size: 1.3em;		
 	font-family: 'Roboto Slab', serif;
 }
+
 .link_menu a {
 	text-decoration: none;
 	color: #3ea6a4;
 }
+
+.border-bottom {
+	border-width: 3px !important;
+}
+
+
