@@ -16,23 +16,45 @@ body {
 	background-position: center;
 	background-size: cover;
 }
+
+
 .logo {
+	transition: .2s linear;
 	text-shadow: 1px 1px 2px black;
-	font-size: 1.8em;
-	color: #3ea6a4;	
+	font-size: 1.8em;		
 	font-family: 'Secular One', sans-serif;
+	color: #3ea6a4;
+
 }
+
+.logo:hover {
+	color: #a2faf8;	
+	text-decoration: none;
+}
+
 
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
+
 .carousel-indicators li {
   width: 10px!important;
   height: 10px!important;
   border-radius: 50%;
 }
+
 .fix_proj_height {
 	height: 60vh;
 
+}
+
+.link_menu {
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.3em;		
+	font-family: 'Roboto Slab', serif;
+}
+.link_menu a {
+	text-decoration: none;
+	color: #3ea6a4;
 }
