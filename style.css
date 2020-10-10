@@ -71,3 +71,7 @@ body {
 .bg_section {
 	background-color: #f7e846;
 }
+.photo_size {
+	height: 250px;
+	width: 250px;
+}
