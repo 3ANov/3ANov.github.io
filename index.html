@@ -17,7 +17,23 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	
 	
 	
-
+	<link rel="apple-touch-icon" sizes="57x57" href="media/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="media/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="media/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="media/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="media/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="media/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="media/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="media/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="media/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="media/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="media/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="media/icons/favicon-16x16.png">
+	<link rel="manifest" href="media/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="media/icons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 
 
 
@@ -28,7 +44,7 @@
 
 	<nav class="bg_darkslategray shadow navbar fixed-top navbar-expand-lg navbar-dark border-info border-bottom">
 		<div class="col-1"></div>
-		<a class="logo" href="#"> 3ANov</a>
+		<a class="logo" href=""> 3ANov</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -85,11 +101,11 @@
 				</div>
 			</div>
 
-			<div class="row mt-5 section">	
+			<div class="row mt-5 section" id="projects">	
 				<div class="col-sm cyberpunk_container shadow  border-info border">						
 					<div class="row p-3">
-						<div class="card-columns">
-							<div class="card">
+						<div class="card-columns" >
+							<div class="card" data-target="#exampleModalLong" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/map.png" alt="Card image cap">
 								<div class="card-body">
 									<p class="card-text">Проект - замена карты дорожных проблем для НКО СПБ-АВТО</p>
@@ -133,25 +149,25 @@
 							</div>
 							<div class="row">
 								<div class="col-md-3 text-center">
-									<a href="#" class="contact_link">
+									<a href="https://teleg.run/A3Nov" class="contact_link">
 										<span class="display-1 m-1"><i class="fab fa-telegram"></i></span>
 										<p><b>@a3nov</b></p>
 									</a>
 								</div>
 								<div class="col-md-3 text-center">
-									<a href="#" class="contact_link">
+									<a href="mailto:3anovdev@gmail.com" class="contact_link">
 										<span class="display-1 m-1"><i class="fas fa-at"></i></span>
 										<p><b>3anovdev@gmail.com</b></p>
 									</a>
 								</div>
 								<div class="col-md-3 text-center">
-									<a href="#" class="contact_link">
+									<a href="https://vk.com/3a_nov" class="contact_link">
 										<span class="display-1 m-1"><i class="fab fa-vk"></i></span>
 										<p><b>vk.com/3a_nov</b></p>
 									</a>
 								</div>
 								<div class="col-md-3 text-center">
-									<a href="#" class="contact_link">									
+									<a href="https://github.com/3ANov" class="contact_link">									
 										<span class="display-1 m-1"><i class="fab fa-github"></i></span>
 										<p><b>github.com/3ANov</b></p>
 									</a>
@@ -167,6 +183,27 @@
 				<span class="text-muted">Place sticky footer content here.</span>
 			</div>
 		</footer>
+
+
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						...
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</body>
 	</html>
