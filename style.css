@@ -33,24 +33,6 @@ body {
 }
 
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
-
-.carousel-indicators li {
-  width: 10px!important;
-  height: 10px!important;
-  border-radius: 50%;
-}
-
-.fix_proj_height {
-	height: 70vh;
-
-}
-.proj_img {
-	height: 300px;
-}
 .link_menu {
 	text-shadow: 1px 1px 2px black;
 	font-size: 1.3em;		
@@ -73,6 +55,7 @@ body {
 .bg_section {
 	background-color: #f7e846;
 }
+
 .photo_size {
 	height: 250px;
 	width: 250px;
