@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html class="h-100">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180640127-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
+		gtag('config', 'UA-180640127-1');
+	</script>
+	
+
+	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/05850b7323.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>3ANov Personal Page</title>
+	<title>3ANov Personal Page</title>	
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
@@ -15,8 +26,10 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	
+	<script src="js/copyright.min.js" type="text/javascript"></script>
 	
 	
+	<!-- Icons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="media/icons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="media/icons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="media/icons/apple-icon-72x72.png">
@@ -88,7 +101,7 @@
 							<p class="m-0"><b>Подробно:</b></p>
 							<ul class="m-1 pl-3">
 								<li><b>Python (Django)</b> - около 5 проектов. 3 проекта можно посмотреть 'вживую';</li>
-								<li><b>Java</b> - есть парочку простеньких проектов. Попробовал jetty, hibernate, поработал с maven;</li>
+								<li><b>Java</b> - есть парочка простеньких проектов. Попробовал jetty, hibernate, поработал с maven;</li>
 								<li><b>С++</b> - изучал 1.5 года в университете;</li>
 								<li><b>Linux</b> - Ubuntu/Debian; </li>														
 								<li><b>PostgreSQL</b> - изучал по курсу на Stepik. Немного знаком с PostGIS;</li>
@@ -180,7 +193,7 @@
 		</main>
 		<footer class="footer mt-auto py-3 bg_darkslategray shadow">
 			<div class="container">
-				<span class="text-muted">Place sticky footer content here.</span>
+				<span class="text-muted"><div class="plugin-copyright" data-owner="3ANov" data-format="2" data-beginning="2020"></div></span>
 			</div>
 		</footer>
 
@@ -324,7 +337,7 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<img class="img-fluid border border-dark" src="media/proj/bot.jpg" alt="Twitch-бот">
+						<img class="img-fluid border border-dark mx-auto d-block" src="media/proj/bot.jpg" alt="Twitch-бот">
 						<p class="text_indent">
 							Бот написан на Java на основе бота <a href="https://github.com/robomaeyhem/PircBot2" class="text-decoration-none"><b>PircBot2</b></a>
 						</p>						
