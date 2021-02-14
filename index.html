@@ -87,7 +87,7 @@
 				<div class="col-sm cyberpunk_container shadow  border-info border">
 					<div class="row m-3 border border-dark">
 						<div class="col-lg-4 bg_section mx-auto">													
-							<img src="https://avatars1.githubusercontent.com/u/47008032?s=460&u=60fc447eeb3efb201b19c76592915f1edb91d973&v=4" alt="..." class="mx-auto my-3 d-block photo_size">
+							<img src="https://avatars1.githubusercontent.com/u/47008032?s=460&u=60fc447eeb3efb201b19c76592915f1edb91d973&v=4" alt="Аватарка" class="mx-auto my-3 d-block photo_size">
 						</div>
 						<div class="col-lg-8 bg_section py-3 pl-3" >
 							<p class="m-0"><b>Skills:</b></p>
@@ -99,6 +99,7 @@
 								<button type="button" class="btn btn-dark p-1 mb-1"><i class="fab fa-linux"></i> Linux</button>
 								<button type="button" class="btn btn-dark p-1 mb-1"><i class="fas fa-code-branch"></i> git</button>
 								<button type="button" class="btn btn-dark p-1 mb-1"><i class="fab fa-html5"></i> HTML / CSS</button>
+								<button type="button" class="btn btn-dark p-1 mb-1"><i class="fab fa-docker"></i>Docker</button>
 							</div>
 							<p class="m-0"><b>Подробно:</b></p>
 							<ul class="m-1 pl-3">
@@ -107,7 +108,8 @@
 								<li><b>С++</b> - изучал 1.5 года в университете;</li>
 								<li><b>Linux</b> - Ubuntu/Debian; </li>														
 								<li><b>PostgreSQL</b> - изучал по курсу на Stepik. Немного знаком с PostGIS;</li>
-								<li><b>HTML / CSS</b> - для проектов верстку делал сам. Немного знаю bootstrap;</li>							
+								<li><b>HTML / CSS</b> - для проектов верстку делал сам. Немного знаю bootstrap;</li>
+								<li><b>Docker / Docker-compose</b> - опыт использования в 4 проектах;</li>						
 							</ul>
 
 						</div>
@@ -149,7 +151,14 @@
 								<div class="card-body">
 									<p class="card-text">Небольшой класс для коррекции текста с неправильной раскладкой</p>
 								</div>
+							</div>
+							<div class="card" data-target="#events-site-Modal" type="button" data-toggle="modal">
+								<img class="card-img-top" src="media/proj/event_site.png" alt="Проект “Афиша” (Тестовое задание):">
+								<div class="card-body">
+									<p class="card-text">Небольшой проект странички-афиши</p>
+								</div>
 							</div>		
+	
 
 						</div>
 					</div>			
@@ -351,6 +360,37 @@
 			</div>
 		</div>
 		
+		<div class="modal fade" id="events-site-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Проект “Афиша”</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="img-fluid border border-dark mx-auto d-block" src="media/proj/event_site.png" alt="Проект “Афиша”">
+						<p class="text_indent">
+							Небольшой проект странички-афишы для публикации и отображения событий. Техническое задание найдено в интернете.
+						</p>
+						<p>
+							<b>Используются:</b>
+							<ul>
+								<li>Django REST Framework</li>	
+								<li>Vue.js</li>
+							</ul>
+						</p>
+						<p>
+							<a class="btn btn-secondary" href="https://github.com/3ANov/events_site" role="button">Проект</a>
+						</p>						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-dark" data-dismiss="modal">Закрыть</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		
 	</body>
