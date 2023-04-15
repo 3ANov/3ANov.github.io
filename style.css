@@ -21,9 +21,10 @@ body {
 
 .body_cyberpunk_container {
 	background-attachment: fixed;
+	background-position: center center;
 	background-image: url('media/cyberpunk.jpg');
-	background-repeat: round;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
