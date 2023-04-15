@@ -22,8 +22,6 @@
 	<meta name="yandex-verification" content="051df6d090359d7c" />
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 
 	<!-- JS, Popper.js, and jQuery -->
@@ -57,7 +55,7 @@
 
 
 </head>
-<body class="d-flex flex-column h-100">	
+<body class="d-flex body_cyberpunk_container flex-column h-100">	
 
 	<nav class="bg_darkslategray shadow navbar fixed-top navbar-expand-lg navbar-dark border-info border-bottom">
 		<div class="col-1"></div>
@@ -69,13 +67,13 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<div class="col-1"></div>
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
+				<li class="nav-item mx-1">
 					<a class="nav-link link_menu" href="#about"><i class="fas fa-id-card"></i> About </a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item mx-1">
 					<a class="nav-link link_menu" href="#projects"><i class="fas fa-tasks"></i> Проекты</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item mx-1">
 					<a class="nav-link link_menu" href="#contacts"><i class="fas fa-link"></i> Контакты</a>
 				</li>
 			</ul>
@@ -89,7 +87,7 @@
 				<div class="col-sm cyberpunk_container shadow  border-info border">
 					<div class="row m-3 border border-dark">
 						<div class="col-lg-4 bg_section mx-auto">													
-							<img src="https://avatars1.githubusercontent.com/u/47008032?s=460&u=60fc447eeb3efb201b19c76592915f1edb91d973&v=4" alt="Аватарка" class="mx-auto my-3 d-block photo_size">
+							<img src="https://avatars1.githubusercontent.com/u/47008032?s=460&u=60fc447eeb3efb201b19c76592915f1edb91d973&v=4" alt="Аватарка" class="mx-auto my-3 d-block border border-dark photo_size">
 						</div>
 						<div class="col-lg-8 bg_section py-3 pl-3" >
 							<p class="m-0"><b>Skills:</b></p>
@@ -124,37 +122,37 @@
 				<div class="col-sm cyberpunk_container shadow  border-info border">						
 					<div class="row p-3">
 						<div class="card-columns" >
-							<div class="card" data-target="#map-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#map-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/map.jpg" alt="Карта дорожных проблем">
 								<div class="card-body">
 									<p class="card-text">Проект - замена карты дорожных проблем для НКО СПБ-АВТО</p>
 								</div>
 							</div>
-							<div class="card" data-target="#test-site-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#test-site-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/test_site.jpg" alt="Сайт для фирмы">
 								<div class="card-body">
 									<p class="card-text">Тестовый сайт для организации</p>
 								</div>
 							</div>
-							<div class="card" data-target="#blog-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#blog-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/blog.jpg" alt="Личный блог">
 								<div class="card-body">
 									<p class="card-text">Личный блог</p>
 								</div>
 							</div>
-							<div class="card" data-target="#bot-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#bot-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/bot.jpg" alt="Twitch-бот">
 								<div class="card-body">
 									<p class="card-text">Бот для Twitch-канала</p>
 								</div>
 							</div>	
-							<div class="card" data-target="#java-class-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#java-class-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/lib.jpg" alt="Java-класс">
 								<div class="card-body">
 									<p class="card-text">Небольшой класс для коррекции текста с неправильной раскладкой</p>
 								</div>
 							</div>
-							<div class="card" data-target="#events-site-Modal" type="button" data-toggle="modal">
+							<div class="card rounded-0 border-info" data-target="#events-site-Modal" type="button" data-toggle="modal">
 								<img class="card-img-top" src="media/proj/event_site.png" alt="Проект “Афиша” (Тестовое задание):">
 								<div class="card-body">
 									<p class="card-text">Небольшой проект странички-афиши</p>
@@ -213,7 +211,7 @@
 
 		<div class="modal fade " id="map-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Карта дорожных проблем</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -253,7 +251,7 @@
 
 		<div class="modal fade" id="blog-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Личный блог</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -286,7 +284,7 @@
 
 		<div class="modal fade" id="test-site-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Тестовый сайт для фирмы</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -317,7 +315,7 @@
 		
 		<div class="modal fade" id="java-class-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Java-class для исправления перепутанной раскладки</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -342,7 +340,7 @@
 		
 		<div class="modal fade" id="bot-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Бот для Twtich-канала</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -364,7 +362,7 @@
 		
 		<div class="modal fade" id="events-site-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div class="modal-content rounded-0">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLongTitle">Проект “Афиша”</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">

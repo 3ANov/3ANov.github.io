@@ -1,7 +1,16 @@
 body {
-	
 	background-color: #9fb7c4;
+}
 
+@font-face {
+	font-family: 'New_Zelek';
+	src: url('media/fonts/New_Zelek.eot');
+	src: local('New_Zelek'),
+		url('media/fonts/New_Zelek.eot?#iefix') format('embedded-opentype'),
+		url('media/fonts/New_Zelek.woff') format('woff'),
+		url('media/fonts/New_Zelek.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
@@ -10,11 +19,16 @@ body {
 	background-color: #243d46;
 }
 
-.cyberpunk_container {
+.body_cyberpunk_container {
+	background-attachment: fixed;
 	background-image: url('media/cyberpunk.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-repeat: round;
+	background-size: 100%;
+}
+
+
+.cyberpunk_container {
+	background-color: #243d468f;
 }
 
 
@@ -22,7 +36,7 @@ body {
 	transition: .2s linear;
 	text-shadow: 1px 1px 2px black;
 	font-size: 1.8em;		
-	font-family: 'Secular One', sans-serif;
+	font-family: 'New_Zelek', normal;
 	color: #3ea6a4;
 
 }
@@ -36,7 +50,7 @@ body {
 .link_menu {
 	text-shadow: 1px 1px 2px black;
 	font-size: 1.3em;		
-	font-family: 'Roboto Slab', serif;
+	font-family: 'New_Zelek', normal;
 }
 
 .link_menu a {
